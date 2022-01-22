@@ -3,12 +3,45 @@ This repository contains few tools to sort and extract stats on Sentinel-GE data
 
 If you use this script and/or Sentinel-GE dataset, please cite the paper as follow.
 
+> P. Paper .....
+
+```
+@article{Sentinel-GE,
+      title={Paper}, 
+      author={Paper},
+      journal={Journal},
+      volume={X},
+      number={X},
+      pages={X-Y},
+      year={2022},
+      doi={DOI}
+}
+```
+
+Prerequisites
+-----
+
+Normally, json is a built-in library available in Python. In case it is not installed, I invite you to set it up with conda :
+
+```
+conda install -c jmcmurray json
+
+```
+
 List of methods in Patch class
 -----
 
 #### Methods :
 
-* 
+* reconstruct_filename (Public) : Reconstruct the filename(s) of ground reference (gr) patch, Sentinel-2 (s2) patche(s) or Sentinel-1 (s1) patches.
+
+* has_nb_dates (Public) : Check if the patch has a certain number (nb_data patchs) of dates.
+
+* has_matching_monthes (Public) : Check if the patch has a certain number (nb_data_per_month patchs) for each months (dates) for S1 or S2.
+
+* to_date(Public Static) : Convert a list of string dates in a format (date_format). Possibility to extract a date from a filename (S1 or S2 patches filename)
+
+* generate_list_patches (Public Static) : Create a list of patches objects from json files available in Sentinel-GE (labels folder).
 
 
 #### Examples :
