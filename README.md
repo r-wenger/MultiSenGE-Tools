@@ -1,5 +1,5 @@
 # Sentinel-GE-Tools
-This repository contains few tools to sort and extract stats on Sentinel-GE dataset.
+This repository contains few tools to sort and extract stats on Sentinel-GE dataset. If you want to download the dataset, please follow this [link](https://github.com/r-wenger/Sentinel-GE-Tools)
 
 If you use this script and/or Sentinel-GE dataset, please cite the paper as follow.
 
@@ -25,7 +25,6 @@ Normally, json is a built-in library available in Python. In case it is not inst
 
 ```
 conda install -c jmcmurray json
-
 ```
 
 List of methods in Patch class
@@ -39,7 +38,7 @@ List of methods in Patch class
 
 * has_matching_monthes (Public) : Check if the patch has a certain number (nb_data_per_month patchs) for each months (dates) for S1 or S2.
 
-* to_date(Public Static) : Convert a list of string dates in a format (date_format). Possibility to extract a date from a filename (S1 or S2 patches filename)
+* to_date (Public Static) : Convert a list of string dates in a format (date_format). Possibility to extract a date from a filename (S1 or S2 patches filename)
 
 * generate_list_patches (Public Static) : Create a list of patches objects from json files available in Sentinel-GE (labels folder).
 
