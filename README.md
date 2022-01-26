@@ -34,6 +34,8 @@ List of methods in Patch class
 
 * reconstruct_filename (Public) : Reconstruct the filename(s) of ground reference (gr) patch, Sentinel-2 (s2) patche(s) or Sentinel-1 (s1) patches.
 
+* matching_periods (Public) : Check if the patch have nb_data_per_period for each period in periods (list of a list)
+
 * has_nb_dates (Public) : Check if the patch has a certain number (nb_data patchs) of dates.
 
 * has_matching_monthes (Public) : Check if the patch has a certain number (nb_data_per_month patchs) for each months (dates) for S1 or S2.
@@ -63,6 +65,11 @@ The second one uses kwargs and you have to instantiate it with every parameters.
 constructor_wt_params = Patch(x=x, y=y, tile=tile, s2_dates=s2_dates, s1_dates=s1_dates, projection=projection, labels=labels)
 ```
 
+* With this function, you want to know if the current patch (mypatch) has at least 2 S2 patches for each period in periods.
+```
+periods = [['20200101', '20200731'], ['20200801', '20200930'], ['20201001', '20201231']]
+mypatch.matching_periods(periods, 2)
+```
 
 Contact
 -----
