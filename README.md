@@ -40,6 +40,14 @@ List of methods in Patch class
 
 * has_matching_monthes (Public) : Check if the patch has a certain number (nb_data_per_month patchs) for each months (dates) for S1 or S2.
 
+* get_centroid (Public) : Calculating the centroid of the patch.
+
+* create_points_shapefile (Public Static) : Compute shapefile map from a list of points/centroids (default EPSG : 4326).
+
+* change_coordinates (Public Static) : Changing coordinates from an epsg to an other.
+
+* has_days_gap_s2 (Public) : Check if there is at least days_gap between each S2 image in each month.
+
 * to_date (Public Static) : Convert a list of string dates in a format (date_format). Possibility to extract a date from a filename (S1 or S2 patches filename)
 
 * generate_list_patches (Public Static) : Create a list of patches objects from json files available in Sentinel-GE (labels folder).
@@ -70,6 +78,9 @@ constructor_wt_params = Patch(x=x, y=y, tile=tile, s2_dates=s2_dates, s1_dates=s
 periods = [['20200101', '20200731'], ['20200801', '20200930'], ['20201001', '20201231']]
 mypatch.matching_periods(periods, 2)
 ```
+#### Dataset visualization :
+
+You can follow this [link](http://romainwenger.fr/Sentinel-GE/index.html) to visualize some informations extracted from Sentinel-GE.
 
 Contact
 -----
