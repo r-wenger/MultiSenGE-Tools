@@ -1,12 +1,12 @@
-# Sentinel-GE-Tools
-This repository contains few tools to sort and extract stats on Sentinel-GE dataset. If you want to download the dataset, please follow this [link](https://github.com/r-wenger/Sentinel-GE-Tools)
+# MultiSenGE-Tools
+This repository contains few tools to sort and extract stats on MultiSenGE dataset. If you want to download the dataset, please follow this [link](https://github.com/r-wenger/MultiSenGE-Tools)
 
-If you use this script and/or Sentinel-GE dataset, please cite the paper as follow.
+If you use this script and/or MultiSenGE dataset, please cite the paper as follow.
 
 > P. Paper .....
 
 ```
-@article{Sentinel-GE,
+@article{MultiSenGE,
       title={Paper}, 
       author={Paper},
       journal={Journal},
@@ -50,7 +50,7 @@ List of methods in Patch class
 
 * to_date (Public Static) : Convert a list of string dates in a format (date_format). Possibility to extract a date from a filename (S1 or S2 patches filename)
 
-* generate_list_patches (Public Static) : Create a list of patches objects from json files available in Sentinel-GE (labels folder).
+* generate_list_patches (Public Static) : Create a list of patches objects from json files available in MultiSenGE (labels folder).
 
 
 #### Examples :
@@ -80,7 +80,7 @@ mypatch.matching_periods(periods, 2)
 ```
 #### Dataset visualization :
 
-You can follow this [link](http://romainwenger.fr/Sentinel-GE/index.html) to visualize some informations extracted from Sentinel-GE.
+You can follow this [link](http://romainwenger.fr/Sentinel-GE/index.html) to visualize some informations extracted from MultiSenGE.
 
 Contact
 -----
