@@ -5,7 +5,26 @@ If you use this script and/or MultiSenGE dataset, please cite the paper as follo
 
 > Romain Wenger, Anne Puissant, Jonathan Weber, Lhassane Idoumghar, & Germain Forestier. (2022). A new remote sensing benchmark dataset for machine learning applications : MultiSenGE (1.0) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.6375466](https://doi.org/10.5281/zenodo.6375466)
 
-Or
+```
+@dataset{romain_wenger_2022_6375466,
+  author       = {Romain Wenger and
+                  Anne Puissant and
+                  Jonathan Weber and
+                  Lhassane Idoumghar and
+                  Germain Forestier},
+  title        = {{A new remote sensing benchmark dataset for machine 
+                   learning applications : MultiSenGE}},
+  month        = mar,
+  year         = 2022,
+  note         = {ANR-17-CE23-0015},
+  publisher    = {Zenodo},
+  version      = {1.0},
+  doi          = {10.5281/zenodo.6375466},
+  url          = {https://doi.org/10.5281/zenodo.6375466}
+}
+```
+
+And/or
 
 > Romain Wenger, Anne Puissant, Jonathan Weber, Lhassane Idoumghar & Germain Forestier (2022 - In Press) MultiSenGE : A Multimodal And Multitemporal Benchmark Dataset For Land Use/land Cover Remote Sensing Applications, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, DOI: 
 
