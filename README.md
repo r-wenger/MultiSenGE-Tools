@@ -3,7 +3,10 @@ This repository contains few tools to sort and extract stats on MultiSenGE datas
 
 If you use this script and/or MultiSenGE dataset, please cite the paper as follow.
 
-> Romain Wenger, Anne Puissant, Jonathan Weber, Lhassane Idoumghar, & Germain Forestier. (2022). A new remote sensing benchmark dataset for machine learning applications : MultiSenGE (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6375466
+> Romain Wenger, Anne Puissant, Jonathan Weber, Lhassane Idoumghar, & Germain Forestier. (2022). A new remote sensing benchmark dataset for machine learning applications : MultiSenGE (1.0) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.6375466](https://doi.org/10.5281/zenodo.6375466)
+
+Or
+
 > Romain Wenger, Anne Puissant, Jonathan Weber, Lhassane Idoumghar & Germain Forestier (2022 - In Press) MultiSenGE : A Multimodal And Multitemporal Benchmark Dataset For Land Use/land Cover Remote Sensing Applications, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, DOI: 
 
 ```
