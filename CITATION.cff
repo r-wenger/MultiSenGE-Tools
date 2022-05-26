@@ -1,1 +1,10 @@
-
+@Article{isprs-annals-V-3-2022-635-2022,
+AUTHOR = {Wenger, R. and Puissant, A. and Weber, J. and Idoumghar, L. and Forestier, G.},
+TITLE = {MULTISENGE: A MULTIMODAL AND MULTITEMPORAL BENCHMARK DATASET FOR LAND USE/LAND COVER REMOTE SENSING APPLICATIONS},
+JOURNAL = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+VOLUME = {V-3-2022},
+YEAR = {2022},
+PAGES = {635--640},
+URL = {https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-3-2022/635/2022/},
+DOI = {10.5194/isprs-annals-V-3-2022-635-2022}
+}
