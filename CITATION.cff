@@ -1,10 +1,24 @@
-@Article{isprs-annals-V-3-2022-635-2022,
-AUTHOR = {Wenger, R. and Puissant, A. and Weber, J. and Idoumghar, L. and Forestier, G.},
-TITLE = {MULTISENGE: A MULTIMODAL AND MULTITEMPORAL BENCHMARK DATASET FOR LAND USE/LAND COVER REMOTE SENSING APPLICATIONS},
-JOURNAL = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
-VOLUME = {V-3-2022},
-YEAR = {2022},
-PAGES = {635--640},
-URL = {https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-3-2022/635/2022/},
-DOI = {10.5194/isprs-annals-V-3-2022-635-2022}
-}
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Wenger"
+  given-names: "Romain"
+  orcid: "https://orcid.org/0000-0001-7557-6862"
+- family-names: "Puissant"
+  given-names: "Anne"
+  orcid: "https://orcid.org/0000-0002-3240-9244"
+- family-names: "Weber"
+  given-names: "Jonathan"
+  orcid: "https://orcid.org/0000-0002-3694-4703"
+- family-names: "Idoumghar"
+  given-names: "Lhassane"
+  orcid: "https://orcid.org/0000-0001-8853-3968"
+- family-names: "Forestier"
+  given-names: "Germain"
+  orcid: "https://orcid.org/0000-0002-4960-7554"
+title: "Tools for MultiSenGE"
+version: 1.0
+doi: doi.org/10.5281/zenodo.6375466
+date-released: 2022-04-15
+url: "https://github.com/r-wenger/MultiSenGE-Tools"
+
