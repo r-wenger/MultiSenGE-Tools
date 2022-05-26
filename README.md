@@ -26,18 +26,18 @@ If you use this script and/or MultiSenGE dataset, please cite the paper as follo
 
 And/or
 
-> Romain Wenger, Anne Puissant, Jonathan Weber, Lhassane Idoumghar & Germain Forestier (2022 - In Press) MultiSenGE : A Multimodal And Multitemporal Benchmark Dataset For Land Use/land Cover Remote Sensing Applications, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, DOI: 
+> Wenger, R., Puissant, A., Weber, J., Idoumghar, L., and Forestier, G.: MULTISENGE: A MULTIMODAL AND MULTITEMPORAL BENCHMARK DATASET FOR LAND USE/LAND COVER REMOTE SENSING APPLICATIONS, ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., V-3-2022, 635–640, https://doi.org/10.5194/isprs-annals-V-3-2022-635-2022, 2022.
 
 ```
-@article{MultiSenGE,
-      title={MultiSenGE : A Multimodal And Multitemporal Benchmark Dataset For Land Use/land Cover Remote Sensing Applications}, 
-      author={Romain Wenger, Anne Puissant, Jonathan Weber, Lhassane Idoumghar, Germain Forestier},
-      journal={ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
-      volume={X},
-      number={X},
-      pages={X-Y},
-      year={2022},
-      doi={DOI}
+@Article{isprs-annals-V-3-2022-635-2022,
+  AUTHOR = {Wenger, R. and Puissant, A. and Weber, J. and Idoumghar, L. and Forestier, G.},
+  TITLE = {MULTISENGE: A MULTIMODAL AND MULTITEMPORAL BENCHMARK DATASET FOR LAND USE/LAND COVER REMOTE SENSING APPLICATIONS},
+  JOURNAL = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  VOLUME = {V-3-2022},
+  YEAR = {2022},
+  PAGES = {635--640},
+  URL = {https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-3-2022/635/2022/},
+  DOI = {10.5194/isprs-annals-V-3-2022-635-2022}
 }
 ```
 
