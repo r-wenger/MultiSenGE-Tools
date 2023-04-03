@@ -188,6 +188,30 @@ class Patch:
         return res
     
     
+    def get_s1_dates(self, dates, date_format='%Y%m'):
+    """
+    Check if there is at least days_gap between each S2 image in each month.
+    @params:
+        dates               - Required  : list of dates in month format
+        date_format         - Required  : date format, default %Y%m to get only months
+        days_gap            - Required  : minimum gap between two monthes
+    """
+        dates_search = sorted(Patch.to_date(dates, date_format=date_format))
+        sorted_s1 = sorted(self.s1_dates)
+        corresponding_s1_dates = []
+    
+        for search_d in dates_search:
+            for s1_d in sorted_s1:
+                if s1_d.month == search_d.month:
+                    corresponding_s1_dates.append(s1_d)
+                    break
+                    
+        if len(corresponding_s1_dates) < len(dates_search):
+            return None, False
+        
+        return corresponding_s1_dates, True
+
+
     def has_days_gap_s2(self, dates, date_format='%Y%m', days_gap=20):
         """
         Check if there is at least days_gap between each S2 image in each month.
