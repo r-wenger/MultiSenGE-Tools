@@ -1,5 +1,5 @@
 # MultiSenGE/NA-Tools
-This repository contains few tools to sort and extract stats on MultiSenGE and MultiSenNA datasets. If you want to download the dataset, please follow this [link]([https://doi.theia.data-terra.org/ai4lcc/)
+This repository contains few tools to sort and extract stats on MultiSenGE and MultiSenNA datasets. If you want to download the dataset, please follow this [link](https://doi.theia.data-terra.org/ai4lcc/)
 
 If you use this script and/or MultiSenGE dataset, please cite the paper as follow.
 
